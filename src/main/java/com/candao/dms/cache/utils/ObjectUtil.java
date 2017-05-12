@@ -5,19 +5,14 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 
 import com.google.gson.Gson;
 
 /**
  * 对象工具类
  * 
- * @author jameslei
- * @version 1.0.0 2017年5月5日 下午5:09:39
  */
 public class ObjectUtil {
-	public static ExecutorService exec = Executors.newFixedThreadPool(20);
 
 	private static Gson gson = new Gson();
 
